@@ -3,9 +3,9 @@
 HOSTNAME=`hostname`
 
 # Set the remote server details
-REMOTE_SERVER="127.0.0.1"
-REMOTE_USERNAME="macias"
-REMOTE_PATH="/home/macias/ip-$HOSTNAME.txt"
+REMOTE_SERVER="eyeful00"
+REMOTE_USERNAME="eyeful"
+REMOTE_PATH="/home/$REMOTE_USERNAME/ip-$HOSTNAME.txt"
 
 
 # THis solution is bad as it may return several IPs
